@@ -2,9 +2,9 @@ from PIL import Image
 import fullcontrol as fc
 import lab.fullcontrol as fclab
 
-from gcode import inputs
+import inputs
 
-design_name = 'plain-box'
+design_name = 'x-embossed-box'
 nozzle_temp = 210
 bed_temp = 65
 print_speed = 1000
@@ -18,7 +18,7 @@ initial_z = EH*0.6 # initial nozzle position is set to 0.6x the extrusion height
 
 cube_side_length = 20
 pixel_res = EH
-pixel_count = cube_side_length / pixel_res
+pixel_count = round(cube_side_length / pixel_res)
 
 def preview(steps):
     fc.transform(steps, 'plot', fc.PlotControls(style='line', zoom=0.7))
@@ -37,23 +37,57 @@ def write_gcode(steps):
     gcode = fc.transform(steps, 'gcode', gcode_controls)
     open(f'gcode/{design_name}.gcode', 'w').write(gcode)
 
-def mapper(image: Image):
+def map_value(value, from_max, to_max):
+    return min(value / from_max * to_max, to_max)
+
+def map_point(point, source_res, target_res):
+    x, y = point
+    x = map_value(x, target_res, source_res)-1
+    y = map_value(y, target_res, source_res)-1
+    return round(x), round(y)
+
+def mapper(image: Image, target_pixels):
     w, h = image.size # assumed square
     assert w == h
-    factor = w / pixel_count
     def get_pixel(x, y):
-        point = (round(x * factor), round(y * factor))
-        return image.getpixel(point)
+        point = map_point((x, y), w, target_pixels)
+        print(point)
+        val = image.getpixel(point)
+        print(f"=> {val}")
+        return val
     return get_pixel
 
-def make_box():
+def emboss_face_line(perimeter, get_pixel):
+    face = perimeter[:2]
+    rest = perimeter[2:]
+
+    face_from = face[0]
+    face_to = face[1]
+    assert face_from.y == face_to.y
+    assert face_from.z == face_to.z
+    y = face_from.y
+    start = face_from.x
+    target = face_to.x
+    z = face_from.z
+
+    line = [face_from]
+    for point in range(pixel_count+1):
+        x = point * pixel_res
+        pixel_value = get_pixel(x, z)
+        offset = map_value(pixel_value, 255, EW)
+        print(offset)
+        line.append(fc.Point(x=start+x, y=y-offset))
+    assert line[-1].x == target
+    line.extend(rest)
+    return line
+
+def make_box(get_pixel):
     steps = []
 
     # start points
     x = 50
     y = 50
     z = initial_z
-
 
     perimeter = fc.rectangleXY(fc.Point(x=x, y=y, z=z), cube_side_length, cube_side_length)
 
@@ -62,19 +96,24 @@ def make_box():
     fill = fclab.fill_base_simple(perimeter, 3, 1, EW)
     steps.append(fill)
 
-    box = fc.move(perimeter, fc.Vector(z=EH), copy=True, copy_quantity=round(cube_side_length / EH))
-    steps.extend(box)
+    print("Generating layers")
+    for layer in range(2, round(cube_side_length / EH)):
+        z=layer * EH
+        base = fc.move(perimeter, fc.Vector(z=z))
+        steps.extend(emboss_face_line(base, get_pixel))
 
     steps.append(fc.Hotend(temp=0))
     steps.append(fc.Buildplate(temp=0))
     steps.append(fc.travel_to(fc.Point(x=100, y=100, z=z + 25)))
 
+    return steps
+
 def main():
     img = inputs.cross()
-    get_pixel = mapper(img)
-    print(get_pixel(1, 1))
-    # box = make_box()
-    # write_gcode(box)
+    get_pixel = mapper(img, cube_side_length)
+    box = make_box(get_pixel)
+    # preview(box)
+    write_gcode(box)
 
 if __name__ == "__main__":
     main()
