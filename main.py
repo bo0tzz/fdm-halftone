@@ -21,7 +21,7 @@ pixel_res = EH
 pixel_count = round(cube_side_length / pixel_res)
 
 def preview(steps):
-    fc.transform(steps, 'plot', fc.PlotControls(style='line', zoom=0.7))
+    fc.transform(steps, 'plot', fc.PlotControls(style='tube', zoom=0.7))
 
 def write_gcode(steps):
     gcode_controls = fc.GcodeControls(
@@ -70,7 +70,7 @@ def emboss_face_line(perimeter, get_pixel):
     target = face_to.x
     z = face_from.z
 
-    line = [face_from]
+    line = [fc.GcodeComment(text="embossed face"), face_from]
     for point in range(pixel_count+1):
         x = point * pixel_res
         pixel_value = get_pixel(x, z)
@@ -78,11 +78,12 @@ def emboss_face_line(perimeter, get_pixel):
         print(offset)
         line.append(fc.Point(x=start+x, y=y+offset))
     assert line[-1].x == target
+    line.append(fc.GcodeComment(text="perimeter"))
     line.extend(rest)
     return line
 
 def make_box(get_pixel):
-    steps = []
+    steps = [fc.GcodeComment(text="layer 1")]
 
     # start points
     x = 50
@@ -98,6 +99,9 @@ def make_box(get_pixel):
 
     print("Generating layers")
     for layer in range(2, round(cube_side_length / EH)):
+        steps.append(fc.GcodeComment(text=f"layer {layer}"))
+        fan = min(70, (layer - 1) * 25)
+        steps.append(fc.Fan(speed_percent=fan))
         z=layer * EH
         base = fc.move(perimeter, fc.Vector(z=z))
         steps.extend(emboss_face_line(base, get_pixel))
