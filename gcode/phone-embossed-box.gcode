@@ -390,7 +390,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 4
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z0.92 E0.004954
 G1 Y50.4 E0.009907
@@ -499,7 +499,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 5
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z1.12 E0.004954
 G1 Y50.4 E0.009907
@@ -608,7 +608,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 6
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z1.32 E0.004954
 G1 Y50.4 E0.009907
@@ -717,7 +717,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 7
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z1.52 E0.004954
 G1 Y50.4 E0.009907
@@ -826,7 +826,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 8
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z1.72 E0.004954
 G1 Y50.4 E0.009907
@@ -935,7 +935,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 9
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z1.92 E0.004954
 G1 Y50.4 E0.009907
@@ -1044,7 +1044,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 10
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z2.12 E0.004954
 G1 Y50.4 E0.009907
@@ -1153,7 +1153,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 11
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z2.32 E0.004954
 G1 Y50.4 E0.009907
@@ -1262,7 +1262,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 12
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z2.52 E0.004954
 G1 Y50.4 E0.009907
@@ -1371,7 +1371,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 13
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z2.72 E0.004954
 G1 Y50.4 E0.009907
@@ -1480,7 +1480,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 14
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z2.92 E0.004954
 G1 Y50.4 E0.009907
@@ -1589,7 +1589,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 15
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z3.12 E0.004954
 G1 Y50.4 E0.009907
@@ -1698,7 +1698,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 16
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z3.32 E0.004954
 G1 Y50.4 E0.009907
@@ -1807,7 +1807,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 17
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z3.52 E0.004954
 G1 Y50.4 E0.009907
@@ -1916,7 +1916,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 18
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z3.72 E0.004954
 G1 Y50.4 E0.009907
@@ -2025,7 +2025,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 19
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z3.92 E0.004954
 G1 Y50.4 E0.009907
@@ -2134,7 +2134,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 20
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z4.12 E0.004954
 G1 Y50.4 E0.009907
@@ -2243,7 +2243,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 21
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z4.32 E0.004954
 G1 Y50.4 E0.009907
@@ -2352,7 +2352,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 22
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z4.52 E0.004954
 G1 Y50.4 E0.009907
@@ -2461,7 +2461,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 23
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z4.72 E0.004954
 G1 Y50.4 E0.009907
@@ -2570,7 +2570,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 24
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z4.92 E0.004954
 G1 Y50.4 E0.009907
@@ -2679,7 +2679,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 25
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z5.12 E0.004954
 G1 Y50.4 E0.009907
@@ -2788,7 +2788,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 26
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z5.32 E0.004954
 G1 Y50.4 E0.009907
@@ -2897,7 +2897,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 27
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z5.52 E0.004954
 G1 Y50.4 E0.009907
@@ -3006,7 +3006,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 28
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z5.72 E0.004954
 G1 Y50.4 E0.009907
@@ -3115,7 +3115,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 29
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z5.92 E0.004954
 G1 Y50.4 E0.009907
@@ -3224,7 +3224,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 30
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z6.12 E0.004954
 G1 Y50.4 E0.009907
@@ -3333,7 +3333,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 31
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z6.32 E0.004954
 G1 Y50.4 E0.009907
@@ -3442,7 +3442,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 32
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z6.52 E0.004954
 G1 Y50.4 E0.009907
@@ -3551,7 +3551,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 33
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z6.72 E0.004954
 G1 Y50.4 E0.009907
@@ -3660,7 +3660,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 34
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z6.92 E0.004954
 G1 Y50.4 E0.009907
@@ -3769,7 +3769,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 35
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z7.12 E0.004954
 G1 Y50.4 E0.009907
@@ -3878,7 +3878,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 36
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z7.32 E0.004954
 G1 Y50.4 E0.009907
@@ -3987,7 +3987,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 37
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z7.52 E0.004954
 G1 Y50.4 E0.009907
@@ -4096,7 +4096,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 38
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z7.72 E0.004954
 G1 Y50.4 E0.009907
@@ -4205,7 +4205,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 39
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z7.92 E0.004954
 G1 Y50.4 E0.009907
@@ -4314,7 +4314,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 40
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z8.12 E0.004954
 G1 Y50.4 E0.009907
@@ -4423,7 +4423,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 41
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z8.32 E0.004954
 G1 Y50.4 E0.009907
@@ -4532,7 +4532,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 42
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z8.52 E0.004954
 G1 Y50.4 E0.009907
@@ -4641,7 +4641,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 43
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z8.72 E0.004954
 G1 Y50.4 E0.009907
@@ -4750,7 +4750,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 44
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z8.92 E0.004954
 G1 Y50.4 E0.009907
@@ -4859,7 +4859,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 45
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z9.12 E0.004954
 G1 Y50.4 E0.009907
@@ -4968,7 +4968,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 46
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z9.32 E0.004954
 G1 Y50.4 E0.009907
@@ -5077,7 +5077,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 47
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z9.52 E0.004954
 G1 Y50.4 E0.009907
@@ -5186,7 +5186,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 48
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z9.72 E0.004954
 G1 Y50.4 E0.009907
@@ -5295,7 +5295,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 49
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z9.92 E0.004954
 G1 Y50.4 E0.009907
@@ -5404,7 +5404,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 50
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z10.12 E0.004954
 G1 Y50.4 E0.009907
@@ -5513,7 +5513,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 51
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z10.32 E0.004954
 G1 Y50.4 E0.009907
@@ -5622,7 +5622,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 52
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z10.52 E0.004954
 G1 Y50.4 E0.009907
@@ -5731,7 +5731,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 53
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z10.72 E0.004954
 G1 Y50.4 E0.009907
@@ -5840,7 +5840,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 54
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z10.92 E0.004954
 G1 Y50.4 E0.009907
@@ -5949,7 +5949,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 55
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z11.12 E0.004954
 G1 Y50.4 E0.009907
@@ -6058,7 +6058,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 56
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z11.32 E0.004954
 G1 Y50.4 E0.009907
@@ -6167,7 +6167,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 57
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z11.52 E0.004954
 G1 Y50.4 E0.009907
@@ -6276,7 +6276,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 58
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z11.72 E0.004954
 G1 Y50.4 E0.009907
@@ -6385,7 +6385,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 59
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z11.92 E0.004954
 G1 Y50.4 E0.009907
@@ -6494,7 +6494,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 60
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z12.12 E0.004954
 G1 Y50.4 E0.009907
@@ -6603,7 +6603,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 61
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z12.32 E0.004954
 G1 Y50.4 E0.009907
@@ -6712,7 +6712,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 62
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z12.52 E0.004954
 G1 Y50.4 E0.009907
@@ -6821,7 +6821,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 63
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z12.72 E0.004954
 G1 Y50.4 E0.009907
@@ -6930,7 +6930,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 64
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z12.92 E0.004954
 G1 Y50.4 E0.009907
@@ -7039,7 +7039,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 65
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z13.12 E0.004954
 G1 Y50.4 E0.009907
@@ -7148,7 +7148,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 66
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z13.32 E0.004954
 G1 Y50.4 E0.009907
@@ -7257,7 +7257,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 67
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z13.52 E0.004954
 G1 Y50.4 E0.009907
@@ -7366,7 +7366,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 68
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z13.72 E0.004954
 G1 Y50.4 E0.009907
@@ -7475,7 +7475,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 69
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z13.92 E0.004954
 G1 Y50.4 E0.009907
@@ -7584,7 +7584,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 70
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z14.12 E0.004954
 G1 Y50.4 E0.009907
@@ -7693,7 +7693,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 71
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z14.32 E0.004954
 G1 Y50.4 E0.009907
@@ -7802,7 +7802,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 72
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z14.52 E0.004954
 G1 Y50.4 E0.009907
@@ -7911,7 +7911,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 73
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z14.72 E0.004954
 G1 Y50.4 E0.009907
@@ -8020,7 +8020,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 74
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z14.92 E0.004954
 G1 Y50.4 E0.009907
@@ -8129,7 +8129,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 75
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z15.12 E0.004954
 G1 Y50.4 E0.009907
@@ -8238,7 +8238,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 76
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z15.32 E0.004954
 G1 Y50.4 E0.009907
@@ -8347,7 +8347,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 77
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z15.52 E0.004954
 G1 Y50.4 E0.009907
@@ -8456,7 +8456,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 78
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z15.72 E0.004954
 G1 Y50.4 E0.009907
@@ -8565,7 +8565,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 79
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z15.92 E0.004954
 G1 Y50.4 E0.009907
@@ -8674,7 +8674,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 80
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z16.12 E0.004954
 G1 Y50.4 E0.009907
@@ -8783,7 +8783,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 81
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z16.32 E0.004954
 G1 Y50.4 E0.009907
@@ -8892,7 +8892,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 82
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z16.52 E0.004954
 G1 Y50.4 E0.009907
@@ -9001,7 +9001,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 83
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z16.72 E0.004954
 G1 Y50.4 E0.009907
@@ -9110,7 +9110,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 84
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z16.92 E0.004954
 G1 Y50.4 E0.009907
@@ -9219,7 +9219,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 85
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z17.12 E0.004954
 G1 Y50.4 E0.009907
@@ -9328,7 +9328,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 86
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z17.32 E0.004954
 G1 Y50.4 E0.009907
@@ -9437,7 +9437,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 87
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z17.52 E0.004954
 G1 Y50.4 E0.009907
@@ -9546,7 +9546,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 88
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z17.72 E0.004954
 G1 Y50.4 E0.009907
@@ -9655,7 +9655,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 89
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z17.92 E0.004954
 G1 Y50.4 E0.009907
@@ -9764,7 +9764,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 90
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z18.12 E0.004954
 G1 Y50.4 E0.009907
@@ -9873,7 +9873,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 91
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z18.32 E0.004954
 G1 Y50.4 E0.009907
@@ -9982,7 +9982,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 92
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z18.52 E0.004954
 G1 Y50.4 E0.009907
@@ -10091,7 +10091,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 93
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z18.72 E0.004954
 G1 Y50.4 E0.009907
@@ -10200,7 +10200,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 94
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z18.92 E0.004954
 G1 Y50.4 E0.009907
@@ -10309,7 +10309,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 95
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z19.12 E0.004954
 G1 Y50.4 E0.009907
@@ -10418,7 +10418,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 96
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z19.32 E0.004954
 G1 Y50.4 E0.009907
@@ -10527,7 +10527,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 97
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z19.52 E0.004954
 G1 Y50.4 E0.009907
@@ -10636,7 +10636,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 98
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z19.72 E0.004954
 G1 Y50.4 E0.009907
@@ -10745,7 +10745,7 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 ; layer 99
-M106 S178 ; set fan speed
+M106 S127 ; set fan speed
 ; embossed face
 G1 Z19.92 E0.004954
 G1 Y50.4 E0.009907
@@ -10854,5 +10854,4 @@ G1 Y70 E0.485467
 G1 X50 E0.495374
 G1 Y50 E0.495374
 G0 F8000 X100 Y100 Z44.8
-M104 S0 ; set hotend temp and continue
-M140 S0 ; set bed temp and continue
+END_PRINT

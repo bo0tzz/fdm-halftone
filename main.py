@@ -100,15 +100,14 @@ def make_box(get_pixel):
     print("Generating layers")
     for layer in range(2, round(cube_side_length / EH)):
         steps.append(fc.GcodeComment(text=f"layer {layer}"))
-        fan = min(70, (layer - 1) * 25)
+        fan = min(50, (layer - 1) * 25)
         steps.append(fc.Fan(speed_percent=fan))
         z=layer * EH
         base = fc.move(perimeter, fc.Vector(z=z))
         steps.extend(emboss_face_line(base, get_pixel))
 
     steps.extend(fc.travel_to(fc.Point(x=100, y=100, z=z + 25)))
-    steps.append(fc.Hotend(temp=0, wait=False))
-    steps.append(fc.Buildplate(temp=0, wait=False))
+    steps.append(fc.ManualGcode(text="END_PRINT"))
 
     return steps
 
