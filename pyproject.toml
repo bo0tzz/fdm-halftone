@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "fullcontrol",
+    "pillow>=11.1.0",
 ]
 
 [tool.uv.sources]
