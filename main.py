@@ -4,7 +4,7 @@ import lab.fullcontrol as fclab
 
 import inputs
 
-design_name = 'x-embossed-box'
+design_name = 'phone-embossed-box'
 nozzle_temp = 210
 bed_temp = 65
 print_speed = 1000
@@ -76,7 +76,7 @@ def emboss_face_line(perimeter, get_pixel):
         pixel_value = get_pixel(x, z)
         offset = map_value(pixel_value, 255, EW)
         print(offset)
-        line.append(fc.Point(x=start+x, y=y-offset))
+        line.append(fc.Point(x=start+x, y=y+offset))
     assert line[-1].x == target
     line.extend(rest)
     return line
@@ -91,10 +91,10 @@ def make_box(get_pixel):
 
     perimeter = fc.rectangleXY(fc.Point(x=x, y=y, z=z), cube_side_length, cube_side_length)
 
-    steps.append(perimeter)
+    steps.extend(perimeter)
 
     fill = fclab.fill_base_simple(perimeter, 3, 1, EW)
-    steps.append(fill)
+    steps.extend(fill)
 
     print("Generating layers")
     for layer in range(2, round(cube_side_length / EH)):
@@ -102,14 +102,14 @@ def make_box(get_pixel):
         base = fc.move(perimeter, fc.Vector(z=z))
         steps.extend(emboss_face_line(base, get_pixel))
 
-    steps.append(fc.Hotend(temp=0))
-    steps.append(fc.Buildplate(temp=0))
-    steps.append(fc.travel_to(fc.Point(x=100, y=100, z=z + 25)))
+    steps.extend(fc.travel_to(fc.Point(x=100, y=100, z=z + 25)))
+    steps.append(fc.Hotend(temp=0, wait=False))
+    steps.append(fc.Buildplate(temp=0, wait=False))
 
     return steps
 
 def main():
-    img = inputs.cross()
+    img = inputs.phone()
     get_pixel = mapper(img, cube_side_length)
     box = make_box(get_pixel)
     # preview(box)
